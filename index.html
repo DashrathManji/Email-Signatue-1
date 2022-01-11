@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+
+        table {
+            background: url('bg.png')no-repeat center center/cover;
+            /* padding: 20px; */
+            width: 651px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+
+        img {
+            height: 180px;
+            display: block;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        td {
+            border: none;
+        }
+
+        .heading-3 {
+            font-size: 12px;
+            font-family: 'Open Sans', sans-serif;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .heading-2 {
+            font-family: 'Public Sans', sans-serif;
+            font-weight: bold;
+            font-size: 2rem;
+            /* margin: 9px 0; */
+        }
+
+        .heading-1 {
+            font-family: 'Open Sans', sans-serif;
+            padding-top: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <table>
+            <tr>
+                <td rowspan="4">
+                    <img src="photo.png" alt="">
+                </td>
+                <td class="heading-1" colspan="2">Email Marketing</td>
+                <!-- <td>3</td> -->
+            </tr>
+            <tr>
+                <!-- <td>1</td> -->
+                <td class="heading-2" colspan="2">Dashrath Manji</td>
+                <!-- <td>3</td> -->
+            </tr>
+            <tr class="heading-3">
+                <!-- <td>1</td> -->
+                <td>80808002</td>
+                <td>ManjiCoder@gmail.com</td>
+            </tr>
+            <tr class="heading-3">
+                <!-- <td>1</td> -->
+                <td>India</td>
+                <td>www.manji.com</td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+</html>
